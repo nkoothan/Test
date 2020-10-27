@@ -1,0 +1,12 @@
+# Writing all output to: V:\IA16A1054-Decoupeur_automatique\ELEC_INFO\PCB\Encoder\Encoder_v3.1.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 1
+route 50 16
+clean 1
+filter 5
+recorner diagonal
+status_file
+
